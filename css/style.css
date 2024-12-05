@@ -1,0 +1,31 @@
+table {
+    /*border-width: 1px;
+    border-color: black;
+    border-style: solid;*/
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+
+  }
+
+  th,
+  td {
+    /*border: 1px solid black;*/
+    padding: 8px;
+    text-align: left;
+  }
+
+  tr:nth-child(even) {
+    background-color: lightgray;
+  }
+
+  tr {
+    border: 1px solid black;
+  }
+  #second_h1{
+    color: blue; font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .input-field{
+    width: 400px; height: 30px; padding: 10px;
+  }

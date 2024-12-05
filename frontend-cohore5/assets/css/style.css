@@ -1,0 +1,42 @@
+#paragraph1 {
+    background-color: blue;
+    color: white;
+    border-top-style: groove;
+    border-color: aqua;
+}
+ol{
+color: aqua;
+}
+.firstli {color: brown;}
+.secli {color: brown;}
+
+ul{color: blueviolet;}
+ul>li{color: blue;}
+
+body {
+    background: linear-gradient(red,blue);
+    background-image: url(../images/1596.jpg);
+    /* background-position: left,right,top,down; */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    
+}
+#container {
+    border: 3px solid pink;
+    display: flex;
+    height: 50px;
+    flex-direction: column;
+    /* flex-direction: column-reverse; */
+    flex-direction: row;
+    /* flex-direction: row-reverse; */
+    /* justify-content: end; */
+    /* justify-content: start; */
+    justify-content: center; 
+    /* justify-content: space-between;  */
+    /* justify-content: space-between; */
+    justify-content: space-evenly;
+}
+.inner-divs {
+    border: 3px solid black;   
+}
+

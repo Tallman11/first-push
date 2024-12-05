@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+header {
+    padding: 15px 20px;
+    border-bottom: 20px;
+}
+
+li {
+    margin: 0 30px; 
+}
+header a {
+    text-decoration: none;
+    color: black;
+}
+#heroseection {
+    margin: 70px;
+    padding: 0 30px; 
+}
+#heroseection div:first-child{
+width: 700px;
+margin: auto;
+text-align: center;
+
+}
+#webinars{
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+#imag-div img{
+    width: 100%;
+}
+
+
+#heroseection>div:nth-child(3) {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+#date-ticket-div {
+width: 600px;
+}
+#Strengthening-rela {
+    font-size: 48px;
+    width: 350px;
+}
+#date-ticket-div p {
+    margin: 20px 0 40px 0;
+}
+#get-ticket {
+    background-color: blue;
+    color: white;
+    padding: 15px 4px 15px 20px ;
+    text-decoration: none;
+}
+#speaker>div {
+    display: flex;
+    justify-content: space-between;
+    margin:0 40px 20px;
+}
+#speaker a {
+    text-decoration: none;
+    color: black;
+}
+#speaker h1{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;  
+}
+
+#events>div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+} 
+#events {
+    margin-bottom: 50px;
+}
+
+#subscribe {
+    background-color: rgba(231,240,255,1);
+    padding-top: 30px;
+    margin-top: 20px;
+}
+#subscribe>div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 0;
+    padding-bottom: 40px;
+}
+#subscribe h1 {
+    font-size: 40px;
+    padding-top: 30px;
+}
+label {color: white;
+background-color: blue;}
+
+footer>div {
+    background-color: blue;
+    
+}
+footer>nav:a {
+    margin-right: 10px;
+}
+
+table { 
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+} 
+th,td {border: 1px solid blue;
+    text-align:left;
+    padding: 30px;
+    margin-left: 10px;
+}
+
